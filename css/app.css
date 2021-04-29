@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM Plex Sans');
+
+:root{
+    --white : #ffffff;
+    --grey-10: #f4f4f4;
+    --grey-30: #cccccc;
+    --grey-40: #a0a0a0;
+    --grey-50: #616161;
+    --grey-70: #393939;
+    --grey-90: #262626;
+    --grey-100: #161616;   
+}
+
+body{
+    font-family: 'IBM Plex Sans' !important;
+    color: var(--grey-100);
+}
+
+
+p{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.m-bottom{
+    margin-bottom: 4rem;
+    height: 7rem;
+}
+.section{
+    height: 100vh !important;
+}
+
+.svg-pict{
+    max-width: 20vh !important;
+    margin: 2.5rem 0rem;
+    fill: var(--white) !important;
+}
+
+@media (min-width: 768px) {
+    .h-margin {
+      margin: 0rem 5rem;
+    }
+  }
+
+
+
+
+.user-exp-svg{
+    content:url("../img/user--experience-design.svg");
+}
+.chart-svg{
+    content:url("../img/chart--custom.svg");
+}
+.dev-svg{
+    content:url("../img/app--developer.svg");
+}
+.right-arrow-white-svg{
+    content:url("../img/arrow-right-white.svg");
+    float: right;
+}
+.right-arrow-svg{
+    content:url("../img/arrow-right.svg");
+    float: right;
+}
+
+
+/* title */
+
+.title-content h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.title-content h6{
+    font-size: 1.2rem;
+}
+
+/* title */
+
+/* about */
+
+.profile-img{
+    max-height: 60vh;
+}
+
+.about-section{
+    background-color: var(--grey-10);
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.about-heading h1{
+    text-transform: uppercase;
+}
+
+.about-content{
+    font-weight: 300;
+}
+
+/* about */
+
+/* service */
+
+.services-heading h1{
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.services-heading h6{
+    font-size: 1.5rem;
+}
+
+.services-content .col-md-4{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    color: var(--grey-10);
+
+}
+
+.services-content .col-md-4 h1{
+    font-size: 2.5rem;
+    /* height: 8vw; */
+    padding-bottom: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+
+.services-content .col-md-4 p{
+    margin-bottom: 0.5rem;
+}
+
+
+.grey-90{
+    background-color: var(--grey-90);
+    color: var(--white);
+}
+
+.grey-70{
+    background-color: var(--grey-70);
+    color: var(--white);
+}
+
+.grey-50{
+    background-color: var(--grey-50);
+    color: var(--white);
+}
+
+.grey-40{
+    background-color: var(--grey-40);
+    color: var(--grey-90) !important;
+}
+
+.grey-30{
+    background-color: var(--grey-30);
+    color: var(--grey-90) !important;
+}
+
+.grey-10{
+    background-color: var(--grey-10);
+    color: var(--grey-90) !important;
+}
+
+/* service */
+
+
+/* portfolio */
+
+
+/* portfolio */
+
+
+
+/* timeline */
+
+.timeline ul{
+    border-left: 4px solid var(--grey-100);
+    /* border-radius: 0.8rem; */
+    background-color: var(--grey-10);
+    margin: 0 auto;
+    position: relative;
+    padding: 1rem;
+    margin-left: 10%;
+    list-style: none;
+    text-align: left;
+    /* width: 70%; */
+}
+
+.timeline h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    /* opacity: 0.3; */
+}
+
+.timeline .date{
+    border-bottom: 1px solid var(--grey-30);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.timeline .date:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .date::before,
+.timeline .date::after{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline .date::before{
+    content: attr(data-date);
+    left: -14.5rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+}
+
+.timeline .date::after{
+    content: "";
+    box-shadow: 0 0 0 4px var(--grey-50);
+    border-radius: 100%;
+    left: -1.7rem;
+    height: 1.0rem;
+    width: 1.0rem;
+    background-color: var(--white);
+
+}
+
+
+/* timeline */
