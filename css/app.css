@@ -44,8 +44,6 @@ p{
   }
 
 
-
-
 .user-exp-svg{
     content:url("../img/user--experience-design.svg");
 }
@@ -55,12 +53,12 @@ p{
 .dev-svg{
     content:url("../img/app--developer.svg");
 }
-.right-arrow-white-svg{
-    content:url("../img/arrow-right-white.svg");
+.light-right-arrow-svg{
+    content:url("../img/light_arrow_right.svg");
     float: right;
 }
-.right-arrow-svg{
-    content:url("../img/arrow-right.svg");
+.dark-right-arrow-svg{
+    content:url("../img/dark_arrow_right.svg");
     float: right;
 }
 
@@ -94,6 +92,7 @@ p{
 .about-heading h1{
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .about-heading h6{
@@ -101,9 +100,6 @@ p{
     font-weight: 300;
 }
 
-.about-heading h1{
-    text-transform: uppercase;
-}
 
 .about-content{
     font-weight: 300;
@@ -129,17 +125,17 @@ p{
 
 }
 
-.services-content .col-md-4 h1{
-    font-size: 2.5rem;
+.services-content .col-md-4 h2{
+    /* font-size: 2rem; */
     /* height: 8vw; */
     padding-bottom: 0.8rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 400;
     text-align: left;
 }
 
 .services-content .col-md-4 p{
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
 }
 
 
@@ -192,14 +188,14 @@ p{
     margin: 0 auto;
     position: relative;
     padding: 1rem;
-    margin-left: 10%;
+    margin-left: 12%;
     list-style: none;
     text-align: left;
     /* width: 70%; */
 }
 
 .timeline h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
