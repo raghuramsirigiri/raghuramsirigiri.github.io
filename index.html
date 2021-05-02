@@ -2,16 +2,238 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rosie Ellis</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghuram Sirigiri</title>
+    <link rel="icon" href="img/user.svg">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="main.js"></script>
+<div class="section text-center d-flex align-items-center justify-content-center">
+    <div class="title-content">
+        <h1>Raghuram Sirigiri</h1>
+        <h6>Product Maanger | Web Developer | UX Entusiast</h6>
+    </div>
+</div>
+
+<div class="section about-section d-flex align-items-center justify-content-center p-5">
+    <div class="row">
+        <div class="col-sm d-flex align-items-center justify-content-center">
+            <img src="img/profile.jpg" alt="Profile Image" class="img-fluid profile-img">
+        </div>
+        <div class="col-sm mx-auto">
+            <div class="about-heading container-fluid text-center">
+                <h1>About</h1>
+                <!-- <h6>Myself</h6> -->
+            </div>
+            <p class="about-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5">
+    <div class="text-center services-heading">
+        <h1>Services</h1>
+        <h6>What can I do for you</h6>
+    </div>
+    <div class="row services-content my-5 h-margin">
+        <div class="col-md-4 grey-90">
+            <div class="icon-container text-center">
+                <img class="svg-pict dev-svg" alt="">
+            </div>
+            <h2 class="text-left">Web Development</h2>
+            <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+        </div>
+        <div class="col-md-4 grey-70">
+            <div class="icon-container text-center">
+                <img class="svg-pict chart-svg" alt="">
+            </div>
+            <h2 class="text-left">Machine Learning</h2>
+            <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+        </div>
+        <div class="col-md-4 grey-50">
+            <div class="icon-container text-center">
+                <img  class="svg-pict user-exp-svg" alt="">
+            </div>
+            <h2 class="text-left">Interface Design</h2>
+            <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="text-center services-heading">
+        <div>
+            <h1>Portfolio</h1>
+            <h6>View some of my recent work</h6>    
+        </div>        
+    </div>
+
+    <div class="row services-content my-5 h-margin">
+        <div class="col-md-4 grey-90">
+            <h2 class="text-left m-bottom">Nudges</h2>
+            <!-- <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p> -->
+            <img class="light-right-arrow-svg" alt="" data-bs-toggle="modal" data-bs-target="#nudge_modal">
+        </div>
+        <div class="col-md-4 grey-70">
+            <h2 class="text-left m-bottom">Adobe Analytics</h2>
+            <!-- <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p> -->
+            <img class="light-right-arrow-svg" alt="">
+        </div>
+        <div class="col-md-4 grey-50">
+            <h2 class="text-left m-bottom">Webauthn - POC</h2>
+            <!-- <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p> -->
+            <img class="light-right-arrow-svg" alt="">
+        </div>
+        <div class="col-md-4 grey-40">
+            <h2 class="text-left m-bottom">Offline OTP - POC</h2>
+            <!-- <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p> -->
+            <img class="dark-right-arrow-svg" alt="">
+        </div>
+        <div class="col-md-4 grey-30">
+            <h2 class="text-left m-bottom">Proximity - POC</h2>
+            <!-- <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p> -->
+            <img class="dark-right-arrow-svg" alt="">
+        </div>
+        <div class="col-md-4 grey-10">
+            <h2 class="text-left m-bottom">Dynamic QR - POC</h1>
+            <!-- <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p> -->
+            <img class="dark-right-arrow-svg" alt="">
+        </div>
+    </div>
+
+    <!-- <div class="row">
+        <div class="col-md-6 p-4">
+            <img src="img/profile.jpg" alt="Profile Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 p-4">
+            <h6>Web development</h6>
+            <h1>blog website</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <a href="#" class="cta">View Details</a>
+        </div>
+        <div class="col-md-6 p-4">
+            <img src="img/profile.jpg" alt="Profile Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 p-4">
+            <h6>Web development</h6>
+            <h1>blog website</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <a href="#" class="cta">View Details</a>
+        </div>
+        <div class="col-md-6 p-4">
+            <img src="img/profile.jpg" alt="Profile Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 p-4">
+            <h6>Web development</h6>
+            <h1>blog website</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <a href="#" class="cta">View Details</a>
+        </div>
+
+    </div> -->
+</div>
+
+<div class="container p-5">
+    <div class="timeline-heading text-center">
+        <h1>History</h1>
+        <h6>Education and Experience</h6>
+    </div>
+    <div class="timeline m-5 l-Padding-timeline">
+        <ul>
+            <li class="date" data-date="2019 - Present">
+                <h1>Kotak Mahindra Bank</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+            </li>
+            <li class="date" data-date="2017 - 2017">
+                <h1>ITS Planners & Engineers</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+            </li>
+            <li class="date" data-date="2014 - 2019">
+                <h1>IIT Madras</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="nudge_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+           
+            <h2>
+                Nudges
+            </h2>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit    
+            </p>
+
+
+            <div class="row justify-content-end">
+                <div class="col-6 modal-close" data-bs-dismiss="modal">Close</div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
