@@ -38,6 +38,10 @@ p{
     fill: var(--white) !important;
 }
 
+.pointer-toggle{
+    cursor: pointer;
+}
+
 @media (min-width: 768px) {
     .h-margin {
       margin: 0rem 5rem;
@@ -48,8 +52,8 @@ p{
 .user-exp-svg{
     content:url("../img/user--experience-design.svg");
 }
-.chart-svg{
-    content:url("../img/chart--custom.svg");
+.ml-svg{
+    content:url("../img/light-machine-learning.svg");
 }
 .dev-svg{
     content:url("../img/app--developer.svg");
@@ -90,15 +94,22 @@ p{
     justify-content: center;
 }
 
+.about-desc{
+    justify-content: center;
+}
+
 .about-heading h1{
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
     text-transform: uppercase;
+    width: 100%;
 }
 
 .about-heading h6{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 
@@ -200,7 +211,7 @@ p{
     margin: 0 auto;
     position: relative;
     padding: 1rem;
-    margin-left: 12%;
+    margin-left: 15%;
     list-style: none;
     text-align: left;
     /* width: 70%; */
@@ -262,6 +273,10 @@ p{
 
 /* modal */
 
+.modal-dailogue{
+    border-radius: 0 !important;
+}
+
 .modal-close{
     padding: 1rem;
     text-align: center;
@@ -270,6 +285,7 @@ p{
     background-color: var(--colour);
     color: var(--white);
     font-weight: 400;
+    cursor: pointer;
 }
 
 .modal-body{
@@ -285,9 +301,10 @@ p{
 }
 
 .modal-body .row{
-    --bs-gutter-x:0 !important;
+    --bs-gutter-x: 0 !important;
     margin-top: 2rem;
 }
+
 
 
 /* modal */
