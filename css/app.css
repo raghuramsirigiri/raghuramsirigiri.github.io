@@ -112,6 +112,16 @@ a:active {
     content:url("../img/dark_arrow_right.svg");
     float: right;
 }
+.chevron-down-svg{
+    content:url("../img/chevron--down.svg");
+    /* float: center; */
+    max-width: 10vh;
+    position: relative;
+    bottom: -20vh;
+}
+
+
+
 
 
 
@@ -119,9 +129,10 @@ a:active {
 
 .title-content h1{
     font-size: 3.5rem;
-    font-weight: 400;
+    font-weight: 50;
     /* text-transform: uppercase; */
 }
+
 
 .title-content h2{
     font-size: 2rem;
