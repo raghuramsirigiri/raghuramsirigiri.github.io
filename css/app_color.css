@@ -10,7 +10,8 @@
     --grey-70: #393939;
     --grey-90: #262626;
     --grey-100: #161616;
-    --colour: #0062ff;  
+    --colour: #0062ff; 
+    --pink: #ff95c0;
 }
 
 body{
@@ -59,7 +60,7 @@ a:active {
 }
 
 .svg-pict{
-    max-width: 20vh !important;
+    max-width: 15vh !important;
     margin: 2.5rem 0rem 1rem 0rem;
     fill: var(--white) !important;
 }
@@ -87,14 +88,6 @@ a:active {
     max-width: 20vw;
 }
 
-.disable-select {
-    user-select: none; /* supported by Chrome and Opera */
-   -webkit-user-select: none; /* Safari */
-   -khtml-user-select: none; /* Konqueror HTML */
-   -moz-user-select: none; /* Firefox */
-   -ms-user-select: none; /* Internet Explorer/Edge */
-}
-
 .user-exp-svg{
     content:url("../img/user--experience-design.svg");
 }
@@ -113,7 +106,10 @@ a:active {
     float: right;
 }
 
-
+u{
+    text-decoration: underline;
+    text-decoration-color: var(--pink);
+}
 
 /* title */
 
@@ -200,7 +196,7 @@ a:active {
 }
 
 .services-content .col-md-4 p{
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.4rem;
 }
 
 .grey-100{
@@ -209,18 +205,18 @@ a:active {
 }
 
 .grey-90{
-    background-color: var(--grey-90);
-    color: var(--white);
+    background-color: var(--grey-100);
+    color: var(--white) !important;    
 }
 
 .grey-70{
-    background-color: var(--grey-70);
-    color: var(--white);
+    background-color: #eeef00;
+    color: var(--grey-100) !important;
 }
 
 .grey-50{
-    background-color: var(--grey-50);
-    color: var(--white);
+    background-color: var(--pink);
+    color: var(--grey-100) !important;
 }
 
 .grey-40{
@@ -357,11 +353,8 @@ a:active {
     margin: 1rem;
 }
 
-.modal-body b{
-    margin: 1rem 1rem 0rem 1rem;
-}
 .modal-body p{
-    margin: 0rem 1rem 1rem 1rem
+    margin: 1rem;
 }
 
 .modal-body .row{
