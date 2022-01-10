@@ -33,12 +33,12 @@
     <div class="title-content">
         <h1>I'm <u>Raghuram Sirigiri</u></h1>
         <h6>Product Manager | Web Developer | UX Enthusiast</h6>
-        <!-- <img class="chevron-down-svg" href="#about" alt=""> -->
+        <a href="https://www.linkedin.com/in/raghuram-sirigiri/" target="_blank"><img class="linked-in-svg" alt=""></a><a href="https://github.com/raghuramsirigiri" target="_blank"><img class="github-svg" alt=""></a>
     </div>
     
 </div>
 
-<div class="section about-section d-flex align-items-center justify-content-center p-5" id="#about">
+<div class="section about-section d-flex align-items-center justify-content-center p-5" id="#about2">
     <div class="row">
         <div class="col-sm d-flex align-items-center justify-content-center">
             <img src="img/profile-min.jpg" alt="Profile Image" class="img-fluid profile-img">
@@ -254,10 +254,29 @@
                 Problem statement:
             </b>
             <p>
-                To improve Cross-sell in Net Banking, I implemented recommender system to give nudges 
-                to net banking customers.
+                clicks are reducing on cross-sell banners in Net Banking. This inturn leading to
+                fewer conversions, which generate revenue to the channel. Cross-sell revenues need
+                to be improved in Net Banking. 
+                
             </p>
 
+            <b>
+                Solution:
+            </b>
+            <p>
+                I improved the UI and placeholders of the banners placing them at various places
+                across net banking. For the first few weeks I analysed the performance of the different
+                placeholders. Later I conducted some user tests and interviewed customers to improve the
+                CTR. I was able to derive some hypotheses which were tested used several A/B tests.
+                After this I arrived at few recommendations which were later improved in production to all customers.
+            </p>
+
+            <b>
+                Result:
+            </b>
+            <p>
+                CTR on cross-sell banners improved by 10x and revenue increase by 20Lakh rupees per month.
+            </p>
 
             <div class="row justify-content-end">
                 <div class="col-6 modal-close" data-bs-dismiss="modal" id="close">Close</div>
@@ -274,13 +293,37 @@
         <div class="modal-body">
            
             <h2>
-                Nudges
+                Adobe Analytics
             </h2>
             
+            <b>
+                Problem statement:
+            </b>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit    
+                Because of high dependency on data teams, the turnaround time for getting data
+                needed for product decisions is around 3-5 days. To get instant access to data and
+                accelerate decision making process, Pages and events are to be tagged in Net Banking.                  
             </p>
+
+            <b>
+                Solution:
+            </b>
+            <p>
+                I created a list of all the events and pages that need to be tracked for phase 1 of the project.
+                Later by coordinating between IT teams and consultants, I implemented tags in Net Banking to track
+                user behavior. Initial dashboards were created by consultants to get us started. I attended
+                several webinars and events conducted by Adobe to learn adobe Analytics. I was able to learn it 
+                with two months and I started building the dashboards required for Net Banking product decisions.
+                I built dashboards to track KPIs and other key metrics used by product teams. 
+            </p>
+
+            <b>
+                Result:
+            </b>
+            <p>
+                We were able to get data needed to improve the NPS of the site by 20 points.
+            </p>
+
 
 
             <div class="row justify-content-end">
@@ -298,16 +341,33 @@
         <div class="modal-body">
            
             <h2>
-                Nudges
+                Webauthn - Proof of Concept 
             </h2>
             
+            <b>
+                Problem statement:
+            </b>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit    
+                There are several customers who login to Net Banking using the same device most of the time.
+                Still they need to complete two factor authentication to do the transactions as it is mandated
+                by RBI. Identify alternate modes of authentication which can ensure safety and convenience to
+                customers.                  
             </p>
 
+            <b>
+                Solution:
+            </b>
+            <p>
+                I created a webauthn based proof of concept, which enables users to login to Net Banking
+                by using inbuilt biometrics and security keys. User can use any of the biometrics like
+                faceID, Windows Hello, PIN and fingerprint which are available on the device. Users can also
+                use security keys provided by different third party manufacturers. This reduces
+                risk of phishing attacks as there are no passwords involved and security keys are only
+                accessible by Net Banking website. 
+            </p>
 
             <div class="row justify-content-end">
+                <a class="col-6 git-cta" href="https://github.com/raghuramsirigiri/webuathn.git">Proceed to Github</a>
                 <div class="col-6 modal-close" data-bs-dismiss="modal" id="close">Close</div>
             </div>
         </div>
@@ -322,12 +382,25 @@
         <div class="modal-body">
            
             <h2>
-                Nudges
+                Dynamic QR - Proof of Concept
             </h2>
             
+            <b>
+                Problem statement:
+            </b>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit    
+                Allow users to login to a website using mobile banking app or facilitate the
+                login of one device through another. Ensure that both devices are in same location.
+            </p>
+
+            <b>
+                Solution:
+            </b>
+            <p>
+               I created a prototype allows login to a new device using an existing device using
+               QR code. This QR code is only valid for few seconds and changes in set frequency.
+               This ensures that the fraudsters cannot login even if they send this QR to users 
+               and make them scan as QR expires by the time users scan it in most of the cases.
             </p>
 
 
@@ -346,14 +419,33 @@
         <div class="modal-body">
            
             <h2>
-                Nudges
+                Proximity - Proof of Concept
             </h2>
             
+            <b>
+                Problem statement:
+            </b>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit    
+                Users can login to their account on a new device using a existing device where user is already
+                logged in. Users need to scan a QR code shown on old device using New device to activate.
+                But fraudsters posing as bank employees started exploiting this feature by asking users to send
+                the image of QR via mail or whatsapp. To protect users from vishing attacks identify a better
+                authentication method.
             </p>
 
+            <b>
+                Solution:
+            </b>
+            <p>
+                By drawing inspiration from google pay and amazon pay apps, which using ultra low
+                frequency sound to transmit transaction related data, I developed a prototype to
+                use sound to authenticate. The prototype was developed using the APIs provided by
+                google as a part of google play services. I later used SDKs provided by a developer
+                named chirp which worked better tha google APIs. This prototype sends security key
+                as a lowe frequency sound which can only be heard by another device. It is difficult
+                to record and replicate sound unlike image in QR. This also ensures that the devices
+                are in proximity and reduce the risk.
+            </p>
 
             <div class="row justify-content-end">
                 <div class="col-6 modal-close" data-bs-dismiss="modal" id="close">Close</div>
@@ -370,16 +462,35 @@
         <div class="modal-body">
            
             <h2>
-                Nudges
+                TOTP - Proof of Concept
             </h2>
             
+            <b>
+                Problem statement:
+            </b>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit    
+                users of the Net Banking were facing issue in receiving OTPs through SMS
+                as some of them live in areas with weak or no connectivity. There several
+                corporate customers who live in tch parks which have connectivity issues because of lower bandwidths.
+                To reduce dependency on service providers for delivering SMS and reducing costs to the bank alternates
+                were explored              
+            </p>
+
+            <b>
+                Solution:
+            </b>
+            <p>
+                I created a prototypes which can provide Time based or count based OTPs to the customer.
+                Any user with Google authenticator or similar authenticator apps can use this functionality. 
+                By doing analysis of the pros and cons of the two types of open source offline OTPs, I concluded
+                that Time based OTP is the better of two. Vendors are being explored to facilitate this solution
+                as per guidelines given by RBI.
             </p>
 
 
+
             <div class="row justify-content-end">
+                <a class="col-6 git-cta" href="https://github.com/raghuramsirigiri/TOTP-HOTP-app.git">Proceed to Github</a>
                 <div class="col-6 modal-close" data-bs-dismiss="modal" id="close">Close</div>
             </div>
         </div>

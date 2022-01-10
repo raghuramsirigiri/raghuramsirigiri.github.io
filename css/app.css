@@ -112,6 +112,17 @@ a:active {
     content:url("../img/dark_arrow_right.svg");
     float: right;
 }
+
+.github-svg{
+    content:url("../img/github--grey.svg");
+    /* float: right; */
+}
+
+.linked-in-svg{
+    content:url("../img/linkedin.svg");
+    /* float: right; */
+}
+
 .chevron-down-svg{  
     content:url("../img/chevron--down.svg");
     /* float: center; */
@@ -142,6 +153,14 @@ a:active {
 
 .title-content h6{
     font-size: 1.2rem;
+}
+
+.title-content a{
+    margin: 0rem 1rem;
+}
+
+.down-chevron{
+   bottom: -30vw; 
 }
 
 /* title */
@@ -360,6 +379,17 @@ a:active {
     cursor: pointer;
 }
 
+.git-cta{
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--grey-100);
+    color: var(--white);
+    font-weight: 400;
+    cursor: pointer;
+}
+
 .modal-body{
     padding: 0 !important;
 }
@@ -372,8 +402,9 @@ a:active {
     margin: 1rem 1rem 0rem 1rem;
 }
 .modal-body p{
-    margin: 0rem 1rem 1rem 1rem
+    margin: 0rem 1rem 1rem 1rem;
 }
+
 
 .modal-body .row{
     --bs-gutter-x: 0 !important;
