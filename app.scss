@@ -75,7 +75,15 @@ video{
     cursor: pointer;
     color: #FFF;
     background-color: #CD0E20;
+    // border: solid 0.1em #CD0E20;
+
+    // &:hover{
+    //     background-color: #CD0E20;
+    //     color: #FFF;
+    //     transition: width 0.5s;
+    // }
 }
+
 
 .modal {
     position: fixed;
